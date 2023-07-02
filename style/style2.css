@@ -1,0 +1,187 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar {
+    background-color: #f2f2f2;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .nav-item {
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .navbar-item:not(:last-child) {
+    margin-right: 10px;
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
+/* ul{
+    border: 1px solid gray;
+    padding: 10px;
+
+}  
+li{
+    margin-bottom: 5px;
+} */
+/* .dropdown-item{
+    border: 1px solid black;
+} */
+
+.col-md{
+
+  border: 1px solid lightgray; 
+  margin: 10px;
+  
+
+}
+
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  
+  
+}
+
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Medya sorguları */
+@media screen and (max-width: 768px) {
+  /* Küçük ekranlar için stil değişiklikleri */
+  .footer {
+      padding: 10px;
+  }
+}
+
+.footer-nav-bar{
+  background-color: transparent;
+  padding: 10px
+  
+}
+
+.ul-footer{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align:center;
+}
+
+.li-footer{
+
+  display: inline;
+  margin-right: 10px;
+}
+
+.a-footer{
+
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+  
+  font-size: 20px;
+}
+
+.a-footer:hover{
+  background-color: bisque;
+  color: #fff
+  
+  
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.popup-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
